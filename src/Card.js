@@ -3,12 +3,12 @@
 function Card(props) {
 
     const {
-        characterData
-    } = props.results
+        character
+    } = props;
 
     return(
         <div>
-            {characterData.name}
+            {character.name}
         </div>
     );
 }
